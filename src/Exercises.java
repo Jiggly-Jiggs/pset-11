@@ -46,8 +46,8 @@ public class Exercises {
    return -1;
   }
 
-  //public int findMeFaster(String[] list, String target) {
-    if (list == null || list.length == 0 || target.equals(null)) {
+  public int findMeFaster(String[] list, String target) {
+    //if (list == null || list.length == 0 || target.equals(null)) {
      return -1;
    }
 
