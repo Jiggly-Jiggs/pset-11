@@ -29,7 +29,7 @@ public class Exercises {
     if (list == null) {
      return -1;
    }
-   int start = 0;
+  // int start = 0;
    int middle = 0;
    int end = list.size() - 1;
 
