@@ -51,8 +51,8 @@ public class Exercises {
      return -1;
    }
 
-   //int start = 0;
-   int end = list.length;
+   int start = 0;
+   //int end = list.length;
 
    while (start < end) {
      int middle = (start + end) / 2;
