@@ -61,7 +61,7 @@ public class Exercises {
          start = middle + 1;
        } else if (list[middle].compareTo(target) > 0) {
          end = middle - 1;
-       }else if (list[middle].compareTo(target) == 0) {
+       } else if (list[middle].compareTo(target) == 0) {
          return middle;
        }
 
