@@ -48,10 +48,10 @@ public class Exercises {
 
   public int findMeFaster(String[] list, String target) {
     if (list == null || list.length == 0 || target.equals(null)) {
-     //return -1;
+     return -1;
    }
 
-   int start = 0;
+   //int start = 0;
    int end = list.length;
 
    while (start < end) {
