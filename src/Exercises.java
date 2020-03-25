@@ -43,7 +43,7 @@ public class Exercises {
        return middle;
      }
    }
-   return -1;
+   //return -1;
   }
 
   public int findMeFaster(String[] list, String target) {
