@@ -34,8 +34,8 @@ public class Exercises {
    int end = list.size() - 1;
 
    while (start <= end) {
-     //middle = (start + end) / 2;
-     if (list.get(middle) < target) {
+     middle = (start + end) / 2;
+     //if (list.get(middle) < target) {
        start = middle + 1;
      }else if (list.get(middle) > target) {
        end = middle - 1;
