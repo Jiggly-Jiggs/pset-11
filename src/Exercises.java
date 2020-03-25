@@ -31,9 +31,9 @@ public class Exercises {
    }
    int start = 0;
    int middle = 0;
-   //int end = list.size() - 1;
+   int end = list.size() - 1;
 
-   while (start <= end) {
+   //while (start <= end) {
      middle = (start + end) / 2;
      if (list.get(middle) < target) {
        start = middle + 1;
