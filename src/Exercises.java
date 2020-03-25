@@ -30,8 +30,8 @@ public class Exercises {
      return -1;
    }
    int start = 0;
-   //int middle = 0;
-   int end = list.size() - 1;
+   int middle = 0;
+   //int end = list.size() - 1;
 
    while (start <= end) {
      middle = (start + end) / 2;
