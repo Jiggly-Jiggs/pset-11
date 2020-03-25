@@ -52,9 +52,9 @@ public class Exercises {
    }
 
    int start = 0;
-   //int end = list.length;
+   int end = list.length;
 
-   while (start < end) {
+   //while (start < end) {
      int middle = (start + end) / 2;
 
      if (list[middle].compareTo(target) < 0) {
